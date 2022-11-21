@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <title>sai</title> -->
+<!-- Footer-->
+<link
+rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+crossorigin="anonymous"
+referrerpolicy="no-referrer"
+/>
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
+    
+
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="icon" type="image/x-icon" href="https://drive.google.com/file/d/1K2bcQBHwFXeZTx2ZLJvzlRB5so2JrTNy/view?usp=sharing">
+</head>
+<body>
+    <nav class="nav">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">YENUGWAR FARM</a>
+            </div>
+            <div id="mainListDiv" class="main_list">
+                <ul class="navlinks">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="gallery.html">GALLERY</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                </ul>
+            </div>
+            <span class="navTrigger">
+                <i></i>
+                <i></i>
+                <i></i>
+            </span>
+        </div>
+    </nav>
+    
+    <section class="home">
+    </section>
+    <br>
+    <br>
+    <div style="height: 1000px">
+        <!-- just to make scrolling effect possible -->
+        <h2 class="myH2"><u>CONTACT US</u></h2>
+<!-- <h1>Dinkar Yenugwar</h1> -->
+
+
+<!-- <div class="w3-row w3-border">
+    <div class="w3-container w3-half w3-red">
+      <h2>RAJIV R. YENUGWAR</h2>  
+      <p>The w3-half class uses 50% of the parent container.</p>
+      <p>On screens smaller than 601 pixels it resizes to 100%.</p>
+    </div>
+    <div class="w3-container w3-half">
+      <h2>w3-half</h2>  
+    </div>
+  </div> -->
+  
+
+  <div class="row">
+    <div class="column" style="background-color:rgb(255, 0, 0);">
+      
+      <h1>RAJIV R. YENUGWAR <br><br>MOBILE NO&#128382 :- <a href="tel:+9518760728">+919518760728</a></h1>
+      
+
+    </div>
+    <div class="column" style="background-color:rgb(255, 0, 0);">
+      <h1>DINKAR R. YENUGWAR <br><br>MOBILE NO&#128382 :- <a href="tel:+9545340009">+919545340009</a></h1>
+      
+    </div>
+  </div>
+
+    </div>
+    
+  <!-- ----------------Footer----------------- -->
+
+  <section class="footer">
+    <div class="social">
+      <a href="https://www.youtube.com/channel/UCtPYwYjZIA38XzxJ5KYxNDA"><i class="fab fa-youtube"></i></a>
+      <a href="https://www.google.com/maps/place/YENUGWAR+FISH+FARM/@20.0425255,79.72658,15.61z/data=!4m5!3m4!1s0x3a2cdff9c87fc73f:0xeac356be58409f70!8m2!3d20.0431477!4d79.7218548!5m1!1e4"><i class="fa fa-map-marker" aria-hidden="true"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+    
+    </div>
+
+    <ul class="list">
+      <li>
+        <a href="index.html">Home</a>
+      </li>
+      <li>
+        <a href="gallery.html">Gallery</a>
+      </li>
+      <li>
+        <a href="contact.html">Contact</a>
+      </li>
+      <li>
+        <a href="about.html">About</a>
+      </li>
+      <li>
+        <!-- <a href="#">Privacy Policy</a> -->
+      </li>
+    </ul>
+    <p class="copyright">copyrightⒸ2022 YENUGWAR FARM . All Right Reserved</p>
+    <p1>Developed By:-<a href="https://saiyenugwar.bio.link">SAI YENUGWAR</a></p1>
+  </section>
+
+
+
+    <!-- Jquery needed -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script>
+        $('.navTrigger').click(function () {
+    $(this).toggleClass('active');
+    console.log("Clicked menu");
+    $("#mainListDiv").toggleClass("show_list");
+    $("#mainListDiv").fadeIn();
+
+});
+
+    </script>
+    
+    <!-- Function used to shrink nav bar removing paddings and adding black background -->
+    <script>
+        $(window).scroll(function() {
+            if ($(document).scrollTop() > 50) {
+                $('.nav').addClass('affix');
+                console.log("OK");
+            } else {
+                $('.nav').removeClass('affix');
+            }
+        });
+    </script>
+</body>
+</html>
