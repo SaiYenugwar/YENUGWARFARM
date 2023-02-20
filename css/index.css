@@ -7,17 +7,16 @@ body {
 	font-family: "Quicksand", sans-serif;
 	font-size: 62.5%;
 	font-size: 10px;
-	/* background-image: linear-gradient( 135deg, #FFF6B7 10%, #F6416C 100%); */
-
+	
 	background: hsla(208, 67%, 81%, 1);
 
-background: linear-gradient(90deg, hsla(208, 67%, 81%, 1) 0%, hsla(37, 65%, 85%, 1) 50%, hsla(301, 65%, 83%, 1) 100%);
-
-background: -moz-linear-gradient(90deg, hsla(208, 67%, 81%, 1) 0%, hsla(37, 65%, 85%, 1) 50%, hsla(301, 65%, 83%, 1) 100%);
-
-background: -webkit-linear-gradient(90deg, hsla(208, 67%, 81%, 1) 0%, hsla(37, 65%, 85%, 1) 50%, hsla(301, 65%, 83%, 1) 100%);
-
-filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#AED1EF", endColorstr="#F2DFC1", GradientType=1 );
+	background: linear-gradient(90deg, hsla(208, 67%, 81%, 1) 0%, hsla(37, 65%, 85%, 1) 50%, hsla(301, 65%, 83%, 1) 100%);
+	
+	background: -moz-linear-gradient(90deg, hsla(208, 67%, 81%, 1) 0%, hsla(37, 65%, 85%, 1) 50%, hsla(301, 65%, 83%, 1) 100%);
+	
+	background: -webkit-linear-gradient(90deg, hsla(208, 67%, 81%, 1) 0%, hsla(37, 65%, 85%, 1) 50%, hsla(301, 65%, 83%, 1) 100%);
+	
+	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#AED1EF", endColorstr="#F2DFC1", GradientType=1 );;
 }
 /*-- Inspiration taken from abdo steif -->
 /* --> https://codepen.io/abdosteif/pen/bRoyMb?editors=1100*/
@@ -367,8 +366,7 @@ h{
 	text-align: center;
 	font-size: 4rem;
 	color: rgb(0, 0, 0);
-	font-style: oblique;
-	/* font-family: cursive; */
+	
 	font-family: Rockwell;
 	/* border-radius: red solid 10px; */
 }
@@ -455,7 +453,7 @@ div.gallery {
   .footer {
 	/* background-image: url("img/img1.jpg"); */
 	padding: 40px 0;
-	background-color: #fff3c9
+	background-color: #ffffff
 	/* width: 100%;
     height: 40vh;
 	background-position: center top;
@@ -484,7 +482,7 @@ div.gallery {
   
   .footer .social a:hover {
 	opacity: 0.9;
-	color: #01ff62;
+	color: #ff0101;
   }
   
   .footer ul {
@@ -558,3 +556,48 @@ div.gallery {
 		width: 100%;
 	  }
 	}
+  /* li.active a{
+
+ }
+ li.a:hover{
+	
+ } */
+ #h {
+	text-transform: uppercase;
+	font-size: 36px;
+	display: flex;
+	justify-content: center;
+	font-family: 'Font Awesome 5 Free';
+	color: red;
+  }
+  
+  span {
+	border-right: .05em solid;
+	animation: caret 1s steps(1) infinite;
+  }
+  
+  @keyframes caret {
+	50% {
+	  border-color: transparent;
+	}
+  }
+  .type {
+	  display: flex;
+	  align-content: center;
+	  justify-content: center;
+  }
+  .t{
+	font-size: 36px; 
+	font-family: 'Font Awesome 5 Free';
+	color: red;
+  }
+  .video{
+	display: flex;
+    justify-content: space-evenly;
+    align-content: flex-start;
+    flex-wrap: wrap;
+  }
+  #ig75{
+	border-radius: 10px;
+  }
+  
